@@ -12,13 +12,15 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatListModule} from '@angular/material/list';
+import { NewComponentComponent } from './new-component/new-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     ProductComponent,
-    MyFormComponent
+    MyFormComponent,
+    NewComponentComponent
   ],
   imports: [
     BrowserModule,
